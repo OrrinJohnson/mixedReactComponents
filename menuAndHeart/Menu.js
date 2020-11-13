@@ -17,7 +17,7 @@ class Menu extends Component {
         return (
             <div>
                 <button onClick={this.toggleMenu}>
-                    {this.state.show ? "Hide Menu" : "Show Menu"}
+                    {this.state.show ? "Hide" : "Show"}
                     Menu
                 </button>
                 <nav style={{display: this.state.show ? "block" : "none"}}>
